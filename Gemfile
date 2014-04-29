@@ -31,6 +31,9 @@ group :production do
   gem 'rails_12factor'
 end
 
+gem 'bcrypt-ruby', :require=>'bcrypt'
+
+gem 'protected_attributes'
   
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
